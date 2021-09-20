@@ -48,7 +48,7 @@ func WithCompress(compress bool) Option {
 func defaultConfig() *Config {
 	return &Config{
 		filename:   "./app.log",
-		maxSize:    100,
+		maxSize:    20,
 		maxBackups: 0,
 		maxAge:     1,
 		compress:   false,
