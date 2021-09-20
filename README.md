@@ -1,5 +1,11 @@
 # Logrus Rotation Hook
 
+## Install
+
+```bash
+go get github.com/4ever9/logrus-rotation-hook
+```
+
 ## Usage
 
 ```go
